@@ -1,10 +1,17 @@
 # About Me
 
-My name is Wanjo Chan.  My thoughts are very random and even maybe meaningless.  I still collect them as some enlightment spark.
+  Hi there, my name is Wanjo Chan.  I'm trying to learn and learn lots of things that might save the human race, despite of how hopeless the chances would be, saying that the AI will dominate our planet eventually.
+  
+# Working Projects
+
+* [Private] Quantitative Trading System for Stock/Future/Option
+  applying 
+* Semi-Automated SalesUnion system
+* [Private] An "Amateur" Investment Fund technical support
+* Some "mini-programs" on WeChat for business
 
 # Thoughts
 
 * Quantum Mechanics => time-space-wave function solve the theory of things
-* SaoLang => New Lang => then new OS
-* Zerotier-like => make network nodes invisible again
-* New browser that show your network+security status
+* SaoLang => New Computer Language => New OS
+* Zerotier-like-network => network nodes invisible again
