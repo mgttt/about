@@ -10,10 +10,21 @@
 * [Private] Investment Fund technical support
 * Some "mini-programs" on WeChat for business
 * Quantum Mechanics => time-space-wave function solve the theory of things
-* SaoLang => New Computer Language => New OS
 * Zerotier-like-network => network nodes invisible again
 
-# Simple C.V.
+# Targets
+
+* SaoLang => New Computer Language, like ES5/ES6/Lua, better ffi, tiny scale
+* QCL => Quantum Calculation Language
+
+# Basic Tech Skill
+
+* Language: Java/PHP/ObjectiveC/C++/C/ECMAScript/bash/perl
+* DB: Mysql/Sqlite/MSSql
+* DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
+* Web/App/IOS/Android
+
+# Core C.V.
 
 * 2001-2004 HSBC
 * 2005-2006 Nortel
