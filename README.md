@@ -6,10 +6,10 @@
 
 # Working Projects
 
-* Quantitative Trading System for Stock/Future/Option 
-* Semi-Automated B2C Union Platform
+* [Private] Quantitative Trading System for Stock/Future/Option 
+* [Private] Semi-Automated B2C Union Platform
 * uChat.im - an app for business communication
-* Investment Fund technical support
+* [Private] Investment Fund technical support
 * Some "mini-programs" on WeChat for business
 * Quantum Mechanics => time-space-wave-function solve the theory of thing
 
@@ -29,6 +29,5 @@
 
 * 2001-2004 HSBC
 * 2005-2006 Nortel
-* 2007- *   MegaTech Group Limited
-* 2009- *   MegaTrade B2C Union
-* 2017- *   PartnerNET Software Pty Ltd
+* 2007-NOW* MegaTech Group Limited
+* 2017-NOW* PartnerNET Software Pty Ltd
