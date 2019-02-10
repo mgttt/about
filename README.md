@@ -1,6 +1,6 @@
 # About Me
 
-  Hi there, my name is Wanjo Chan, a stackless developer (cold joke to fullstack ;)
+  Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a stackless developer (cold joke to fullstack ;)
   
   I'm trying to work on things that might save the human race, despite of how hopeless the chances would be, saying that the AI will dominate our home planet eventually.
 
