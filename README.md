@@ -18,16 +18,18 @@
 * SaoLang => New Computer Language, like ES5/ES6/Lua, better ffi, smaller scale
 * QCL => Quantum Calculation Language
 
-# Basic Tech Skill
+# Tech Skill
 
-* Main Language: ES6/Java/PHP/ObjectiveC/C++/C/bash/perl
+* Main: ES6/Java/PHP/ObjectiveC/C++/C/bash/perl
 * DB: Mysql/Sqlite/MSSql
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
-* Web/App/IOS/Android/WeChatMiniProgram
+* Web/App/IOS/Android/WeChatMiniProgram/ReactNative
+* Maths/Financial/Physics
 
 # Core C.V.
 
-* 2001-2004 HSBC
-* 2005-2006 Nortel
-* 2007-NOW* MegaTech Group Limited
-* 2017-NOW* PartnerNET Software Pty Ltd
+* 1997-2001 - South China University of Technology - Applied Maths - Scholar of Science
+* 2001-2004 - HSBC - Software Developer
+* 2005-2006 - Nortel - Software Developer
+* 2007-NOW* - MegaTech Group Limited - CTO
+* 2017-NOW* - PartnerNET Software Pty Ltd - Director
