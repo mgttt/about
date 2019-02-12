@@ -34,4 +34,3 @@
 * 2001-2004 - HSBC - Software Developer
 * 2005-2006 - Nortel - Software Developer
 * 2007-NOW* - MegaTech Group Limited - CTO
-* 2017-NOW* - PartnerNET Software Pty Ltd - Solo
