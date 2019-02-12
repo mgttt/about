@@ -27,7 +27,7 @@ Google 云机器学习平台使用户能够轻松构建任何大小的任何类�
 
 基于云的预测分析服务，可以快速创建和部署预测模型作为分析解决方案。
 
-## (TensorFlow)[https://www.tensorflow.org/]
+## [TensorFlow](https://www.tensorflow.org/)
 
 一个开源软件库，使用数据流图进行数值计算。
 
