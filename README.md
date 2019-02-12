@@ -1,6 +1,6 @@
 # [About Me](https://trello.com/b/QqM8jOJG/wanjochan)
 
-  Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a stackless developer (stackless is a cold joke to fullstack ;)
+  Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a stackless developer (cold joke to fullstack developer ;)
   
   I'm trying to work on things that might save the human race, despite of how hopeless the chances would be, saying that the AI will dominate our home planet eventually.
 
@@ -10,7 +10,7 @@
 * [Private] Semi-Automated B2C Union Platform - 半自动电商联盟系统
 * uChat.im - an app for business communication - 以商业为主题的即时通讯应用
 * Some "mini-programs" on WeChat for business - 一些基于微信小程序的商业应用
-* [Private] Investment Fund technical support - 投资基金技术支持
+* [Private] Investment Fund technical support - 投资基金的技术支持
 
 # Interest Targets - 兴趣类目标
 
@@ -21,11 +21,11 @@
 
 # Tech Skill - 技术能力
 
-* Main: ES6/Java/PHP/ObjectiveC/C++/C/bash/perl
-* DB: Mysql/Sqlite/MSSql
+* Programming: ES6/Java/PHP/ObjectiveC/C++/C/bash/perl
+* DBA: Mysql/Sqlite/MSSql
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
-* Web/App/IOS/Android/WeChatMiniProgram/ReactNative
-* Maths/Financial/Physics
+* Platforms: Web/App/IOS/Android/WeChatMiniProgram/ReactNative
+* Transdisciplinarity: Maths/Financial/Physics
 
 
 # Core C.V.
