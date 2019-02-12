@@ -28,7 +28,7 @@
 
 # Core C.V.
 
-* 1997-2001 - South China University of Technology - Applied Maths - Scholar of Science
+* South China University of Technology - Applied Maths - Scholar of Science
 * 2001-2004 - HSBC - Software Developer
 * 2005-2006 - Nortel - Software Developer
 * 2007-NOW* - MegaTech Group Limited - CTO
