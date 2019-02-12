@@ -16,6 +16,7 @@
 
 * SaoLang => New Computer Language, like ES5/ES6/Lua, better ffi, smaller scale - 仿EMCAScript构建的特色语言
 * QCL => Quantum Calculation Language - 量子计算专用语言
+* Machine Learning / TensorFlow for Quantitative Trading - 针对量化交易的机器学习与张量计算
 * Quantum Mechanics: time-space-wave-function interpretates the theory of thing - 用时空波函数来诠释万有理论的量子物理学研究
 
 # Tech Skill - 技术能力
@@ -25,6 +26,7 @@
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
 * Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Maths/Financial/Physics
+
 
 # Core C.V.
 
