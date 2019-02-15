@@ -19,14 +19,14 @@
 * Machine Learning / TensorFlow for Quantitative Trading - 针对量化交易的机器学习与张量计算
 * Quantum Mechanics: time-space-wave-function interpretates the theory of thing - 用时空波函数来诠释万有理论的量子物理学研究
 
-# Tech Skill - 技术能力
+# Skill
 
-* Programming: ES6/Java/PHP/ObjectiveC/C++/C/bash/perl
-* DBA: Mysql/Sqlite/MSSql
+* Programming: ES6/Java/PHP/ObjectiveC/C++/C/Bash/Perl
+* DB: Mysql/Sqlite/MSSql
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
-* Platforms: Web/App/IOS/Android/WeChatMiniProgram/ReactNative
+* Platforms: Backend/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Transdisciplinarity: Maths/Financial/Physics
-
+* Learn and pratise, dynamic planning and problem solving
 
 # Core C.V.
 
