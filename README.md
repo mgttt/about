@@ -23,7 +23,7 @@
 
 * Programming: ES6/Java/PHP/ObjectiveC/C++/C/Bash/Perl
 * DB: Mysql/Sqlite/MSSql
-* DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub
+* DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub/AWSLambda
 * Platforms: Backend/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Transdisciplinarity: Maths/Financial/Physics
 * Learn and pratise, dynamic planning and problem solving
