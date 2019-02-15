@@ -3,6 +3,7 @@ personal tech learn/pratise log since 2019-02-14
 ### 2019-02-15
 
 * learn [AWS Lambda Cron/Rate mode](https://docs.aws.amazon.com/lambda/latest/dg/tutorial-scheduled-events-schedule-expressions.html); with Lambda functions to build a robust quick tools-alike apps.
+* learn [TencentCloud/ServlessFunction](https://console.cloud.tencent.com/scf/list), similiar to the AWS Lambda Functions, and much better to use....adopt it as our cronjob trigger perfect
 
 ### 2019-02-14
 
