@@ -1,4 +1,4 @@
-# [About Me](https://trello.com/b/QqM8jOJG/wanjochan)
+# [About Me]()
 
   Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a stackless developer (cold joke to fullstack developer ;)
   
@@ -34,3 +34,7 @@
 * 2001-2004 - HSBC - Software Developer
 * 2005-2006 - Nortel - Software Developer
 * 2007-NOW* - MegaTech Group Limited - CTO
+
+# [Trello Cards](https://trello.com/b/QqM8jOJG/wanjochan)
+
+
