@@ -4,7 +4,7 @@
   
   I'm trying to work on things that might save the human race, despite of how hopeless the chances would be, saying that the AI will dominate our home planet eventually.
 
-# Working Projects - 在建项目
+# Ongoing Projects/Products - 在建项目与产品
 
 * [Private] Quantitative Trading System for Stock/Future/Option - 针对【股票,期货,期权】等资产组合的量化交易系统
 * [Private] Semi-Automated B2C Union Platform - 半自动电商联盟系统
@@ -23,7 +23,7 @@
 
 * Programming: ES6/Java/PHP/ObjectiveC/C++/C/Bash/Perl
 * DB: Mysql/Sqlite/MSSql
-* DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/PubNub
+* DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub
 * Platforms: Backend/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Transdisciplinarity: Maths/Financial/Physics
 * Learn and pratise, dynamic planning and problem solving
