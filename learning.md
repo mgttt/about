@@ -3,6 +3,7 @@ personal tech learn/pratise log since 2019-02-14
 ### 2019-02-18
 
 * release [tinyfsm](https://github.com/wanjochan/tinyfsm)
+* upgrade 20+ servers from win to lnx and tuned control center of EShopUnion;
 
 ### 2019-02-15
 
