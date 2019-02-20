@@ -1,4 +1,4 @@
-# [About Me]()
+# About Me
 
   Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a **stackless** software developer (play joke on "fullstack developer" ;)
   
