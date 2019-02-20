@@ -12,7 +12,7 @@
 * Some "mini-programs" on WeChat for business - 一些基于微信小程序的商业应用
 * [Private] Investment Fund technical support - 投资基金的技术支持
 
-# Interest Targets - 兴趣类目标
+# Interests
 
 * [SaoLang](https://github.com/wanjochan/saolang) => Computer Language, tiny scale, english keyword-less, just for fun - 仿EMCAScript构建的特色语言
 * QCL => Quantum Calculation Language - 量子计算专用语言
@@ -26,7 +26,8 @@
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub/AWSLambda
 * Platforms: Backend/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Transdisciplinarity: Maths/Financial/Physics
-* Learn and pratise, dynamic planning and problem solving
+* Quant Trade: SharpPoint/InteractiveBroker/FutuHK/etc
+* Learn&pratise, dynamic planning and problem solving
 
 # Core C.V.
 
