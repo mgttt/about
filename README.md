@@ -34,8 +34,6 @@
 * South China University of Technology - Applied Maths - Scholar of Science
 * 2001-2004 - HSBC - Software Developer
 * 2005-2006 - Nortel - Software Developer
-* 2007-NOW* - MegaTech Group Limited - CTO
-
-# [Trello Cards](https://trello.com/b/QqM8jOJG/wanjochan)
+* 2007-NOW* - (HongKong) MegaTech Group Limited
 
 
