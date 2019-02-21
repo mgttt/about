@@ -1,5 +1,9 @@
 personal tech learn/pratise log since 2019-02-14
 
+### 2019-02-20
+
+* learn and compare OPCODE of python/lua/jerrscript VM
+
 ### 2019-02-19
 
 * improve EBIZ Control Center with Vue template syntax
