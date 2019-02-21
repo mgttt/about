@@ -3,10 +3,11 @@ personal tech learn/pratise log since 2019-02-14
 ### 2019-02-20
 
 * learn and compare OPCODE of python/lua/jerrscript VM
+* quick review NectarJS (https://github.com/NectarJS/)
 
 ### 2019-02-19
 
-* improve EBIZ Control Center with Vue template syntax
+* improve EBIZ Control Center with Vue.js template syntax
 
 ### 2019-02-18
 
