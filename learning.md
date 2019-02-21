@@ -1,5 +1,13 @@
 personal tech learn/pratise log since 2019-02-14
 
+| DATE | LEARN AND PRACTICE |
+| --- | --- |
+| 2019-02-21 | 
+```
+sudo apt-get install protobuf-compiler
+```
+|
+
 ### 2019-02-20
 
 * learn and compare OPCODE of python/lua/jerrscript VM
