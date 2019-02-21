@@ -2,11 +2,8 @@ personal tech learn/pratise log since 2019-02-14
 
 | DATE | LEARN AND PRACTICE |
 | --- | --- |
-| 2019-02-21 | 
-```
-sudo apt-get install protobuf-compiler
-```
-|
+| 2019-02-21 | <pre>sudo apt-get install protobuf-compiler
+</pre> |
 
 ### 2019-02-20
 
