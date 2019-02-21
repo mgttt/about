@@ -2,9 +2,9 @@ personal tech learn/pratise log since 2019-02-14
 
 ### 2019-02-21
 
-* wget https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-cpp-3.6.1.tar.gz, tar xzvf, ./configure, make, make install
-* git clone https://github.com/libuv/libuv.git, make && make install
-* git clone https://github.com/FutunnOpen/C-For-FutuOpenD.git , edit CMakeFile.txt (libuv_a.a to libuv.a) mkdir build && cd build && cmake .. && make
+* install [google protobuf > 3.5.1](https://github.com/protocolbuffers/protobuf/releases), wget https://github.com/protocolbuffers/protobuf/releases/download/v3.6.1/protobuf-cpp-3.6.1.tar.gz, tar xzvf, ./configure, make, make install
+* install [libuv >1.22], git clone https://github.com/libuv/libuv.git, make && make install
+* install FUTU-C, git clone https://github.com/FutunnOpen/C-For-FutuOpenD.git , edit CMakeFile.txt (libuv_a.a to libuv.a) mkdir build && cd build && cmake .. && make
 NOT PASSED YET, need more time;
 
 ### 2019-02-20
