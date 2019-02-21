@@ -1,9 +1,10 @@
 personal tech learn/pratise log since 2019-02-14
 
-| DATE | LEARN AND PRACTICE |
-| --- | --- |
-| 2019-02-21 | <pre>sudo apt-get install protobuf-compiler
-</pre> |
+### 2019-02-21
+
+* sudo apt-get install protobuf-compiler
+* git clone https://github.com/libuv/libuv.git make && make install
+* git clone https://github.com/FutunnOpen/C-For-FutuOpenD.git && mkdir build && cd build && cmake .. && make
 
 ### 2019-02-20
 
