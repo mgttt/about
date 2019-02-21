@@ -19,7 +19,7 @@
 * QCL => Quantum Calculation Language - 量子计算专用语言
 * Machine Learning / TensorFlow for Quantitative Trading - 针对量化交易的机器学习与张量计算
 * Quantum Mechanics: time-space-wave-function interpretates the theory of thing - 用时空波函数来诠释万有理论的量子物理学研究
-* [Private] ANTI.AI - Rebellion Neutral Networking with a good moral
+* [Private] ANTI.AI - Rebellion Neutral Networking with good faith to mankind
 
 # Skill
 
