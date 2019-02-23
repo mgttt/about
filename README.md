@@ -23,7 +23,7 @@
 
 # Skill
 
-* Programming: ES6/Java/PHP/ObjectiveC/C++/C/Bash/Perl
+* Programming: ES6/PHP/ObjectiveC/C++/C/Java/Perl/Bash
 * DB: Mysql/Sqlite/MSSql
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub/AWSLambda
 * Platforms: Backend/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
