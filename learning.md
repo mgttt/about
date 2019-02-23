@@ -9,6 +9,52 @@ personal tech learn/pratise log since 2019-02-14
 v8::Persistent<v8::Context> context = v8::Persistent<v8::Context>::New(v8::Context::New());
 context->Enter();
 ```
+```
+WebCoreFrameBridge
+/external/webkit/Source/WebKit/android/jni/WebCoreFrameBridge.cpp
+
+static void AddJavascriptInterface(JNIEnv *env, jobject obj, jint nativeFramePointer,
+    jobject javascriptObj, jstring interfaceName, jboolean requireAnnotation)
+{
+WebCore::Frame* pFrame = 0;
+if (nativeFramePointer == 0)
+    pFrame = GET_NATIVE_FRAME(env, obj);
+else
+    pFrame = (WebCore::Frame*)nativeFramePointer;
+ALOG_ASSERT(pFrame, "nativeAddJavascriptInterface must take a valid frame pointer!");
+
+JavaVM* vm;
+env->GetJavaVM(&vm);
+ALOGV("::WebCore:: addJSInterface: %p", pFrame);
+
+if (pFrame) {
+    RefPtr<JavaInstance> addedObject = WeakJavaInstance::create(javascriptObj,
+            requireAnnotation);
+    const char* name = getCharactersFromJStringInEnv(env, interfaceName);
+    // Pass ownership of the added object to bindToWindowObject.
+    NPObject* npObject = JavaInstanceToNPObject(addedObject.get());
+    pFrame->script()->bindToWindowObject(pFrame, name, npObject);
+    // bindToWindowObject calls NPN_RetainObject on the
+    // returned one (see createV8ObjectForNPObject in V8NPObject.cpp).
+    // bindToWindowObject also increases obj's ref count and decreases
+    // the ref count when the object is not reachable from JavaScript
+    // side. Code here must release the reference count increased by
+    // bindToWindowObject.
+
+    // Note that while this function is declared in WebCore/bridge/npruntime.h, for V8 builds
+    // we use WebCore/bindings/v8/npruntime.cpp (rather than
+    // WebCore/bridge/npruntime.cpp), so the function is implemented there.
+    // TODO: Combine the two versions of these NPAPI files.
+    NPN_ReleaseObject(npObject);
+    releaseCharactersForJString(interfaceName, name);
+}
+}
+
+作者：小明写代码
+链接：https://www.jianshu.com/p/61da3baae535
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+```
 
 ### 2019-02-22
 
