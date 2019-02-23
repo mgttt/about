@@ -2,7 +2,7 @@ personal tech learn/pratise log since 2019-02-14
 ### 2019-02-22
 
 * place holder for the [VM research](https://docs.google.com/document/d/1udOtqnWSzmhLBCRVEOQCUs_Kj3b81Y_YIDZW8laNbz8/edit)
-* review [mathjs](http://mathjs.org/download.html)
+* review [mathjs](http://mathjs.org/download.html), [numbers.js](https://github.com/numbers/numbers.js)
 
 ### 2019-02-21
 
