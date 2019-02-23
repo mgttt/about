@@ -1,4 +1,15 @@
 personal tech learn/pratise log since 2019-02-14
+
+### 2019-02-23
+
+* review android [jni example](https://github.com/googlesamples/android-ndk/blob/master/hello-jniCallback/app/src/main/cpp/hello-jnicallback.c) to see if any solution to utilize the webview and v8 by linking with libwebcore.so
+```
+#https://stackoverflow.com/questions/6880778/android-utilize-v8-without-webview/11973689#11973689
+#https://android.googlesource.com/platform/external/webkit
+v8::Persistent<v8::Context> context = v8::Persistent<v8::Context>::New(v8::Context::New());
+context->Enter();
+```
+
 ### 2019-02-22
 
 * place holder for the [VM research](https://docs.google.com/document/d/1udOtqnWSzmhLBCRVEOQCUs_Kj3b81Y_YIDZW8laNbz8/edit)
