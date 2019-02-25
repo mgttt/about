@@ -14,13 +14,15 @@
 @(Helper) // merge this
 
 ,TrendTradePlus(){
-  LoopStart.OK => JudgeTrend
-  JudgeTrend.Up => AlgoUp // Tie same as Up
-    .Dn => AlgoDn
-  AlgoUp.Act => ActionAlgo
-    .OK => LoopEnd
-  ActionAlgo.OK => LoopEnd
-  LoopEnd.OK => LoopStart
+  return Helper.tinyfsm(`
+    LoopStart.OK => JudgeTrend
+    JudgeTrend.Up => AlgoUp // Tie same as Up
+      .Dn => AlgoDn
+    AlgoUp.Act => ActionAlgo
+      .OK => LoopEnd
+    ActionAlgo.OK => LoopEnd
+    LoopEnd.OK => LoopStart
+   `);
 }
 
 ,AlgoUp(){
@@ -30,14 +32,14 @@
   @ PriceBase = Helper.Max( PriceLast, Helper.PriceMaxToday );
   @ TrendPlusUpDn = PriceBase * (1 - TrendPlusUpDnRate)  - (TrendPlusUpDnValue);
   @ MarketPrice = Helper.MarketPrice;
-  @? (! (MarketPrice <= TrendPlusUpDn) ) {
+  @? (! ( MarketPrice <= TrendPlusUpDn ) ) {
     Helper.AlgoUpFlag1 = false;
     Helper.AlgoUpFlag1Price = null;
     @~( {STS:'OK'} )
   }
   Helper.AlgoUpFlag1 = true;
   if(!Helper.AlgoUpFlag1Price) Helper.AlgoUpFlag1Price = MarketPrice;
-  @? (TrendPlusUpDnRate>0 || TrendPlusUpDnBkRate) {
+  @? ( TrendPlusUpDnRate>0 || TrendPlusUpDnBkRate ) {
     @? (Helper.AlgoUpFlag1){
       //test flag2
       @ TrendPlusUpDnBack = Helper.AlgoUpFlag1Price * (1 + TrendPlusUpDnBkRate) + TrendPlusUpDnBkValue;
@@ -51,6 +53,5 @@
   }
   @~( {STS:'OK'} )
 }
-
 
 ```
