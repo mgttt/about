@@ -31,6 +31,9 @@
   @ TrendPlusUpDn = PriceBase - (TrendPlusUpDnValue||0) - PriceBase * (TrendPlusUpDnRate || 0.0);
   @ MarketPrice = Helper.MarketPrice;
   @ flag1 = (MarketPrice >= TrendPlusUpDn);
+  @?(flag1){
+    @ TrendPlusUpDnBack = Helper.Min(TrendPlusUpDn, MarketPrice) * (1 + (TrendPlusUpDnBkRate || 0.0) ) + (TrendPlusUpDnBkValue||0);
+  }
   @~( flag1 && flag2 )
 }
 
