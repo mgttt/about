@@ -52,13 +52,13 @@
       @? (MarketPrice >= TrendPlusUpDnBack) {
         Helper.AlgoUpFlag2 = true;
         Helper.AlgoUpFlag2Price = MarketPrice;
-        @~( {STS:'Act'} )
+        @~ Helper.QSTS('Act')
       }
     } else { //just flag1
-      @~( {STS:Act} )
+      @~ Helper.QSTS('Act')
     }
   }
-  @~( {STS:'OK'} )
+  @~ Helper.QOK()
 }
 
 ```
