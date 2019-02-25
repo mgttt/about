@@ -9,7 +9,7 @@
 
 * 趋势影响因子 (-2,+2)
 
-```
+```SAO
 
 @(Helper) // merge this
 
@@ -25,16 +25,31 @@
 
 ,AlgoUp(){
   @ Config = Helper.Config;
-  @ { TrendPlusUpDnValue, TrendPlusUpDnBkValue, TrendPlusUpDnRate, TrendPlusUpDnBkRate } = Config;
+  @ { TrendPlusUpDnValue=0, TrendPlusUpDnBkValue=0, TrendPlusUpDnRate=0, TrendPlusUpDnBkRate=0 } = Config;
   @ PriceLast = Helper.HasLastTrade ? Helper.PriceLastTrade : Helper.PriceStartToday;
   @ PriceBase = Helper.Max( PriceLast, Helper.PriceMaxToday );
-  @ TrendPlusUpDn = PriceBase - (TrendPlusUpDnValue||0) - PriceBase * (TrendPlusUpDnRate || 0.0);
+  @ TrendPlusUpDn = PriceBase * (1 - TrendPlusUpDnRate)  - (TrendPlusUpDnValue);
   @ MarketPrice = Helper.MarketPrice;
-  @ flag1 = (MarketPrice >= TrendPlusUpDn);
-  @?(flag1){
-    @ TrendPlusUpDnBack = Helper.Min(TrendPlusUpDn, MarketPrice) * (1 + (TrendPlusUpDnBkRate || 0.0) ) + (TrendPlusUpDnBkValue||0);
+  @? (! (MarketPrice <= TrendPlusUpDn) ) {
+    Helper.AlgoUpFlag1 = false;
+    Helper.AlgoUpFlag1Price = null;
+    @~( {STS:'OK'} )
   }
-  @~( flag1 && flag2 )
+  Helper.AlgoUpFlag1 = true;
+  if(!Helper.AlgoUpFlag1Price) Helper.AlgoUpFlag1Price = MarketPrice;
+  @? (TrendPlusUpDnRate>0 || TrendPlusUpDnBkRate) {
+    @? (Helper.AlgoUpFlag1){
+      //test flag2
+      @ TrendPlusUpDnBack = Helper.AlgoUpFlag1Price * (1 + TrendPlusUpDnBkRate) + TrendPlusUpDnBkValue;
+      @? (MarketPrice >= TrendPlusUpDnBack) {
+        @~( {STS:'Act'} )
+      }
+    }
+  } else {
+    //just flag1
+    @~( {STS:Act} )
+  }
+  @~( {STS:'OK'} )
 }
 
 
