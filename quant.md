@@ -23,9 +23,10 @@
     LoopStart.OK => JudgeTrend
     JudgeTrend.Up => AlgoUp // Tie same as Up
       .Dn => AlgoDn
-    AlgoUp.Act => ActionAlgoUp
-      .OK => LoopEnd
-    ActionAlgo.OK => LoopEnd
+    AlgoUp.OK => LoopEnd
+      .Act1 => ActionAlgoUp
+      .Act2 => ActionAlgoUp
+    ActionAlgoUp.OK => LoopEnd
     LoopEnd.OK => LoopStart
    `);
 }
@@ -46,20 +47,20 @@
     Helper.AlgoUpFlag1 = true;
     Helper.AlgoUpFlag1Price = MarketPrice;
   }
+  @ STS = 'OK';
   @? ( Helper.AlgoUpFlag1 ){
     @? ( TrendPlusUpDnRate >0 || TrendPlusUpDnBkRate >0 ) {
-      //test flag2
       @ TrendPlusUpDnBack = Helper.AlgoUpFlag1Price * (1 + TrendPlusUpDnBkRate) + TrendPlusUpDnBkValue;
       @? (MarketPrice >= TrendPlusUpDnBack) {
         Helper.AlgoUpFlag2 = true;
         Helper.AlgoUpFlag2Price = MarketPrice;
-        @~ Helper.QSTS('Act')
+        STS = 'Act2';
       }
-    } else { //just flag1
-      @~ Helper.QSTS('Act')
+    } @: {
+      STS = 'Act1';
     }
   }
-  @~ Helper.QOK()
+  @~ Helper.QSTS(STS)
 }
 
 ```
