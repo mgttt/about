@@ -13,10 +13,10 @@
 
 ```SAO
 
-@(Helper) // merge this
+@(Helper) // NOTE: merge "this"
 
 ,TrendTradePlus(){
-  return Helper.tinyfsm(`
+  return Helper.fsm(`
     LoopStart.OK => JudgeTrend
     JudgeTrend.Up => AlgoUp // Tie same as Up
       .Dn => AlgoDn
