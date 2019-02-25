@@ -32,7 +32,7 @@
   @ { TrendPlusUpDnValue=0, TrendPlusUpDnBkValue=0, TrendPlusUpDnRate=0, TrendPlusUpDnBkRate=0 } = Config;
   @ PriceLast = Helper.HasLastTrade ? Helper.PriceLastTrade : Helper.PriceStartToday;
   @ PriceBase = Helper.Max( PriceLast, Helper.PriceMaxToday );
-  @ TrendPlusUpDn = PriceBase * (1 - TrendPlusUpDnRate)  - (TrendPlusUpDnValue);
+  @ TrendPlusUpDn = PriceBase * (1 - TrendPlusUpDnRate)  - TrendPlusUpDnValue;
   @ MarketPrice = Helper.MarketPrice;
   @? (! ( MarketPrice <= TrendPlusUpDn ) ) {
     Helper.AlgoUpFlag1 = false;
@@ -40,9 +40,9 @@
     @~( {STS:'OK'} )
   }
   Helper.AlgoUpFlag1 = true;
-  if(!Helper.AlgoUpFlag1Price) Helper.AlgoUpFlag1Price = MarketPrice;
-  @? ( TrendPlusUpDnRate>0 || TrendPlusUpDnBkRate ) {
-    @? (Helper.AlgoUpFlag1){
+  @? (!Helper.AlgoUpFlag1Price) Helper.AlgoUpFlag1Price = MarketPrice;
+  @? ( TrendPlusUpDnRate >0 || TrendPlusUpDnBkRate >0 ) {
+    @? ( Helper.AlgoUpFlag1 ){
       //test flag2
       @ TrendPlusUpDnBack = Helper.AlgoUpFlag1Price * (1 + TrendPlusUpDnBkRate) + TrendPlusUpDnBkValue;
       @? (MarketPrice >= TrendPlusUpDnBack) {
