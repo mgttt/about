@@ -28,7 +28,7 @@
 }
 
 ,ActionAlgoUp(){
-  Helper.ClearCache('AlgoUpFlag*')
+  Helper.ClearCache('AlgoUpFlag*') //IMPORTANT
   @~ Helper.QOK()
 }
 
@@ -42,12 +42,10 @@
   @? ( MarketPrice <= TrendPlusUpDn ) {
     Helper.AlgoUpFlag1 = true;
     Helper.AlgoUpFlag1Price = MarketPrice;
-  } @: {
-    Helper.AlgoUpFlag1 = false;
-    Helper.AlgoUpFlag1Price = null;
-  }  
+  }
   @? ( Helper.AlgoUpFlag1 ){
-    @? ( TrendPlusUpDnRate >0 || TrendPlusUpDnBkRate >0 ) { //test flag2
+    @? ( TrendPlusUpDnRate >0 || TrendPlusUpDnBkRate >0 ) {
+      //test flag2
       @ TrendPlusUpDnBack = Helper.AlgoUpFlag1Price * (1 + TrendPlusUpDnBkRate) + TrendPlusUpDnBkValue;
       @? (MarketPrice >= TrendPlusUpDnBack) {
         Helper.AlgoUpFlag2 = true;
