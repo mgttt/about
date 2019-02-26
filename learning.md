@@ -1,5 +1,11 @@
 personal tech learn/pratise log since 2019-02-14
 
+### 2019-02-24/02-25
+
+* learn VirtualBox VDRP mode with TLS cert, cool for trading union usage;
+* review dynamic-planning;
+* new simple strategy for 725 trading code;
+
 ### 2019-02-23
 
 * review android [jni example](https://github.com/googlesamples/android-ndk/blob/master/hello-jniCallback/app/src/main/cpp/hello-jnicallback.c) to see if any solution to utilize the webview and v8 by linking with libwebcore.so
