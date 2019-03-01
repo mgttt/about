@@ -1,5 +1,9 @@
 personal tech learn/pratise log since 2019
 
+### 2019-03
+
+* 285mb size win7 [vdi image](https://github.com/wanjochan/PartnerNET.Software/blob/master/win7_000_d.7z?raw=true) for automation dev;
+
 ### 2019-02
 
 * learn VirtualBox VDRP mode with TLS cert, cool for trading union usage;
