@@ -2,6 +2,8 @@ personal tech learn/pratise log since 2019
 
 ### 2019-03
 
+* setup new Trading Acount for HSI, new journey
+* nwjs-builder-phoneix for packing uChat win version (v0.7.0)
 * 285mb size win7 [vdi image](https://github.com/wanjochan/PartnerNET.Software/blob/master/win7_000_d.7z?raw=true) for automation dev;
 
 ### 2019-02
