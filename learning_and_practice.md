@@ -7,6 +7,7 @@ personal tech learn/pratise log since 2019
 * 285mb size win7 [vdi image](https://github.com/wanjochan/PartnerNET.Software/blob/master/win7_000_d.7z?raw=true) for automation dev;
 * review VMWARE [ESXi](https://www.vmware.com/products/esxi-and-esx.html), for future own server cluster for BizTrade
 * review [vnpy](https://github.com/vnpy/vnpy), get some ideas for the algo-trading
+* update sptrader_nodejs to adopt json-3.5.0.hpp when NODE_MODULE_VERSION>57
 
 ### 2019-02
 
