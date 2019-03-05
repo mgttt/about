@@ -8,6 +8,8 @@ personal tech learn/pratise log since 2019
 * review VMWARE [ESXi](https://www.vmware.com/products/esxi-and-esx.html), for future own server cluster for BizTrade
 * review [vnpy](https://github.com/vnpy/vnpy), get some ideas for the algo-trading
 * update sptrader_nodejs to adopt json-3.5.0.hpp when NODE_MODULE_VERSION>57
+* learn [how to transfer domain between cloudflare accounts](https://support.cloudflare.com/hc/en-us/articles/204615358-How-to-move-domains-between-Cloudflare-accounts)
+* learn [JS on cloudflare workers](https://cloudflareworkers.com/) for more ServerLess Deployment Options
 
 ### 2019-02
 
