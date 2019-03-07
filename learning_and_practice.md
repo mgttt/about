@@ -9,9 +9,10 @@ personal tech learn/pratise log since 2019
 * review [vnpy](https://github.com/vnpy/vnpy), get some ideas for the algo-trading
 * update sptrader_nodejs to adopt json-3.5.0.hpp when NODE_MODULE_VERSION>57
 * learn [how to transfer domain between cloudflare accounts](https://support.cloudflare.com/hc/en-us/articles/204615358-How-to-move-domains-between-Cloudflare-accounts)
-* learn [JS on cloudflare workers](https://cloudflareworkers.com/) for more ServerLess Deployment Options
-* learn [PHP Zend VM](http://joshuais.me/php-zend-vm/)
-* learn [Ethereum VM codes](https://ethervm.io)
+* review [JS on cloudflare workers](https://cloudflareworkers.com/) for more ServerLess Deployment Options
+* review [PHP Zend VM](http://joshuais.me/php-zend-vm/)
+* review [Ethereum VM codes](https://ethervm.io)
+* review [Tachyon](https://github.com/Tachyon-Team/Tachyon.git) - about JS-vm-JS
 
 ### 2019-02
 
