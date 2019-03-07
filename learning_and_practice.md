@@ -14,6 +14,7 @@ personal tech learn/pratise log since 2019
 * review [Ethereum VM codes](https://ethervm.io)
 * review [Tachyon](https://github.com/Tachyon-Team/Tachyon.git) - about JS-vm-JS
 * review [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) a must-learn for new lang impl.
+* review [ASM value type](http://asmjs.org/spec/latest/#value-types)
 
 ### 2019-02
 
