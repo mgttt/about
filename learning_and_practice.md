@@ -13,6 +13,7 @@ personal tech learn/pratise log since 2019
 * review [PHP Zend VM](http://joshuais.me/php-zend-vm/)
 * review [Ethereum VM codes](https://ethervm.io)
 * review [Tachyon](https://github.com/Tachyon-Team/Tachyon.git) - about JS-vm-JS
+* review [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) a must-learn for new lang impl.
 
 ### 2019-02
 
