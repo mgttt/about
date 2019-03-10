@@ -24,6 +24,7 @@ https://dist.ipfs.io/#go-ipfs
 # config dns on cloudflare as the doc:
 https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 ```
+* review [libp2p](https://libp2p.io/implementations/), soon will apply into our project for the decentralized AI
 
 ### 2019-02
 
