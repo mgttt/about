@@ -15,6 +15,15 @@ personal tech learn/pratise log since 2019
 * review [Tachyon](https://github.com/Tachyon-Team/Tachyon.git) - about JS-vm-JS
 * review [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) a must-learn for new lang impl.
 * review [ASM value type](http://asmjs.org/spec/latest/#value-types)
+* applying cloudflare-ipfs:
+```
+# install and then setup ipfs on tiny servers
+https://docs.ipfs.io/introduction/install/
+https://dist.ipfs.io/#go-ipfs
+
+# config dns on cloudflare as the doc:
+https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
+```
 
 ### 2019-02
 
