@@ -26,6 +26,9 @@ https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-websit
 ```
 * review [libp2p](https://libp2p.io/implementations/), soon will apply into our project for the decentralized AI
 * review [bson-binary](https://github.com/mongodb/js-bson/blob/master/lib/binary.js) and other implementation [js-bson](https://github.com/muhmi/javascript-bson/blob/master/lib/bson.js), and [binson](https://github.com/alialavia/binson)
+* [binary ast proposal](https://github.com/tc39/proposal-binary-ast/blob/master/README.md)
+
+
 
 ### 2019-02
 
