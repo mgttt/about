@@ -25,6 +25,7 @@ https://dist.ipfs.io/#go-ipfs
 https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 ```
 * review [libp2p](https://libp2p.io/implementations/), soon will apply into our project for the decentralized AI
+* review [bson-binary](https://github.com/mongodb/js-bson/blob/master/lib/binary.js)
 
 ### 2019-02
 
