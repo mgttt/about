@@ -28,6 +28,17 @@ https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-websit
 * review [bson-binary](https://github.com/mongodb/js-bson/blob/master/lib/binary.js) and other implementation [js-bson](https://github.com/muhmi/javascript-bson/blob/master/lib/bson.js), and [binson](https://github.com/alialavia/binson), [WebASM Binary Format](http://webassembly.github.io/spec/core/binary/index.html), [binary ast proposal](https://github.com/tc39/proposal-binary-ast/blob/master/README.md)
 * [ast parser by esprima](http://esprima.org/demo/parse.html#), [ESTree/AST Spec](https://github.com/estree/estree)
 * [ast-for-javascript-developers](https://itnext.io/ast-for-javascript-developers-3e79aeb08343),[super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+* https://github.com/nodejs/CTC/issues/104
+```
+hashseed:
+V8's Ignition bytecode is not a serialized AST. Its format is not designed to be public, but rather an implementation detail. The bytecode encodes data specific to V8's design choices (value representation, tagging scheme, call convention, object layout, metadata slot indices, etc.). Currently it is evolving quickly. We cannot afford to freeze the bytecode format or even specify it formally.
+
+I agree that it is desirable to have an intermediate format to avoid some parsing, but Ignition bytecode is not that format. When you think of bytecode, you probably think of Java bytecode. Ignition bytecode is very unlike Java bytecode in that it is very much intertwined with V8's implementation details, whereas Java bytecode is a public format shared between many Java implementations.
+
+WebAssembly is much closer, though with caveats.
+
+
+```
 
 
 ### 2019-02
