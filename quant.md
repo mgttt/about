@@ -15,11 +15,9 @@
 ###  攀附型入货
 
 ```SAO
-
-@(Helper) // NOTE: merge "this"
-
-,TrendTradePlus(){
-  return Helper.fsm(`
+Helper:@('Helper')
+@ST = {
+,TrendTradePlus: () => Helper.fsm(`
     LoopStart.OK => JudgeTrend
     JudgeTrend.Up => AlgoUp // Tie same as Up
       .Dn => AlgoDn
@@ -28,8 +26,7 @@
       .Act2 => ActionAlgoUp
     ActionAlgoUp.OK => LoopEnd
     LoopEnd.OK => LoopStart
-   `);
-}
+   `)
 
 ,ActionAlgoUp(){
   Helper.ClearCache('AlgoUpFlag*') //IMPORTANT
@@ -62,5 +59,7 @@
   }
   @~ Helper.QSTS(STS)
 }
+
+}//ST
 
 ```
