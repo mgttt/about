@@ -17,7 +17,7 @@
 ```SAO
 Helper:@('Helper')
 @ST = {
-,TrendTradePlus: () => Helper.fsm(`
+,FSM: () => Helper.fsm(@@, `
     LoopStart.OK => JudgeTrend
     JudgeTrend.Up => AlgoUp // Tie same as Up
       .Dn => AlgoDn
