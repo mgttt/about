@@ -1,5 +1,9 @@
 personal tech learn/pratise log since 2019
 
+### 2019-04
+
+* [Notes about Mysql Cluster Deployment](http://blog.sequoiadb.com/cn/Detail-id-54)
+
 ### 2019-03
 
 * setup new Trading Acount for HSI, new journey
