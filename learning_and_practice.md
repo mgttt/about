@@ -3,6 +3,7 @@ personal tech learn/pratise log since 2019
 ### 2019-04
 
 * [Notes about Mysql Cluster Deployment](http://blog.sequoiadb.com/cn/Detail-id-54)
+* [max sqlite performance](https://blog.csdn.net/chenguanzhou123/article/details/9376537)
 
 ### 2019-03
 
