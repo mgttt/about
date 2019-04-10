@@ -4,6 +4,8 @@ personal tech learn/pratise log since 2019
 
 * [Notes about Mysql Cluster Deployment](http://blog.sequoiadb.com/cn/Detail-id-54)
 * [max sqlite performance](https://blog.csdn.net/chenguanzhou123/article/details/9376537)
+* design distributed sql-db and kvdb
+* cloudflare enterprise worker and plugin for socket reverse to access the db backend
 
 ### 2019-03
 
