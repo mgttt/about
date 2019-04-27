@@ -6,6 +6,7 @@ personal tech learn/pratise log since 2019
 * [max sqlite performance](https://blog.csdn.net/chenguanzhou123/article/details/9376537)
 * design distributed sql-db and kvdb
 * cloudflare enterprise worker and plugin for socket reverse to access the db backend
+* [mysql cluster setup scripts](https://github.com/wanjochan/misctools/tree/master/mysql) and [wiki](https://github.com/wanjochan/misctools/wiki/mysql-cluster)
 
 ### 2019-03
 
