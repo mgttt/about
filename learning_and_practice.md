@@ -1,5 +1,9 @@
 personal tech learn/pratise log since 2019
 
+### 2019-05
+
+* design and build tiny framework for lambda, and make it work with our cluster database deployment;
+
 ### 2019-04
 
 * [Notes about Mysql Cluster Deployment](http://blog.sequoiadb.com/cn/Detail-id-54)
