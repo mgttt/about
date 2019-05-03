@@ -2,7 +2,7 @@ personal tech learn/pratise log since 2019
 
 ### 2019-05
 
-* design and build tiny framework for lambda, and make it work with our cluster database deployment;
+* design and build tiny framework for lambda, and make it work with our cluster database deployment; [shared src](https://github.com/wanjochan/misctools/tree/master/lambda), it works for SCF @ QCloud too ;)
 * Offline IoT [does-the-iot-really-need-the-internet](https://uk.farnell.com/does-the-iot-really-need-the-internet)
 
 ### 2019-04
