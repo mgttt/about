@@ -65,3 +65,17 @@ Helper:@('Helper') // import Helper from Sanbox Caller
 }//ST
 
 ```
+
+## 正股与期权联动
+
+e.g. JD
+```SAO
+@ { LimitAlgoLevelDn=-1, AlgoCallPosRatioLimit=5, AlgoPosCallRatioLimit=2 } = Helper.Config;
+@ FlagToDoBuy = true, FlagToDoSell = true,
+//正股 1_PCT_T
+//@? (AlgoLevel < LimitAlgoLevelDn || AlgoLevel > LimitAlgoLevelUp) @~ //如果超过层级上下限，跳过正股
+//@? (AlgoPos < AlgoCallPos / AlgoCallPos/AlgoCallPosRatioLimit ) FlagToDoBuy = false; //小于比例跳过渣
+//(-AlgoPos > AlgoCallPos / AlgoCallPos/AlgoPosCallRatioLimit) FlagToDoSell = false //跳过沽
+//聚合（下周、下下周、下下下周 接近1且未开仓，已开仓）=> 根据 PosLevel做 5_PCT_T, 但超过10张不做渣，小于3张不做沽
+@~ Helper.POK()
+```
