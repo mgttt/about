@@ -1,4 +1,8 @@
 personal tech learn/pratise log since 2019
+### 2019-06
+
+* distributed uid algorithm
+
 
 ### 2019-05
 
