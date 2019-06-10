@@ -1,7 +1,7 @@
 personal tech learn/pratise log since 2019
 ### 2019-06
 
-* [distributed algorithm](https://github.com/wanjochan/misctools/blob/master/mysql/duid.md)
+* [distributed-id algorithm](https://github.com/wanjochan/misctools/blob/master/mysql/duid.md)
 
 
 ### 2019-05
