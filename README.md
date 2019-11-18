@@ -9,17 +9,17 @@
 * [Private] Quantitative Trading System for Stock/Future/Option - 针对【股票,期货,期权】等资产组合的量化交易系统
 * [Private] Semi-Automated B2C Union Platform - 半自动电商联盟系统
 * uChat.im - an app for business communication - 以商业为主题的即时通讯应用
-<!--* Some "mini-programs" on WeChat for business - 一些基于微信小程序的商业应用-->
 * [Private] Investment Fund technical support - 投资基金的技术支持
-<!--* [Private] PartnerNET Quant Fund - 私人投资基金-->
+<!-- * Some "mini-programs" on WeChat for business - 一些基于微信小程序的商业应用 -->
+<!-- * [Private] PartnerNET Quant Fund - 私人投资基金 -->
 
 # Interests
 
-* [SaoLang](https://github.com/wanjochan/saolang) => Computer Language, tiny scale, english keyword-less, just for fun - 仿EMCAScript构建的特色语言
-* QC => Quantum Calculation - 量子计算
 * Machine Learning / TensorFlow for Quantitative Trading - 针对量化交易的机器学习与张量计算
 * Quantum Mechanics: time-space-wave-function interpretates the theory of thing - 用时空波函数来诠释万有理论的量子物理学研究
-* [Private] ANTI.AI - Rebellion Neutral Networking with good faith to mankind
+* [SaoLang](https://github.com/wanjochan/saolang) => Computer Language, tiny scale, english keyword-less, just for fun - 仿EMCAScript构建的特色语言
+* QC => Quantum Calculation - 量子计算
+<!-- * [Private] ANTI.AI - Rebellion Neutral Networking with good faith to mankind -->
 
 # Skill
 
