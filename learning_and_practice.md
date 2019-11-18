@@ -1,4 +1,11 @@
 personal tech learn/pratise log since 2019
+
+### 2019-10
+
+* [WrapEval](https://github.com/wanjochan/wrapeval)
+* [EvalCli](https://github.com/wanjochan/evalcli)
+
+
 ### 2019-06
 
 * [distributed-id algorithm](https://github.com/wanjochan/misctools/blob/master/mysql/duid.md)
