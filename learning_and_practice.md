@@ -4,7 +4,9 @@ personal tech learn/pratise log since 2019
 
 * [WrapEval](https://github.com/wanjochan/wrapeval)
 * [EvalCli](https://github.com/wanjochan/evalcli)
-
+* delete this.constructor;this.constructor.constructor('return this')()
+* (function(){return this})()
+* (new Function('return this'))()
 
 ### 2019-06
 
