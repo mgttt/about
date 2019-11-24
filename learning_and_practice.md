@@ -1,5 +1,10 @@
 personal tech learn/pratise log since 2019
 
+### 2019-11
+
+* VS Code for ES
+* [HubSpot Intergration and Developement](https://app.hubspot.com/academy/6493533/tracks/71/593/2968)
+
 ### 2019-10
 
 * [WrapEval](https://github.com/wanjochan/wrapeval)
