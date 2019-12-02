@@ -1,6 +1,6 @@
 # About Me
 
-  Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a **stackless** (puns joke on hot "fullstack" ;) software developer 
+  Hi there, my name is Wanjo Chan (CHEN/YUNZUO), a **stackless** (puns joke on hot "fullstack" ;) coder
   
 <!--  I'm trying to work on things that might save the human race, despite of how hopeless the chances would be, saying that the AI will dominate our home planet eventually.-->
 
@@ -24,12 +24,12 @@
 # Skill
 
 * Programming: ES6/PHP/ObjectiveC/C++/C/Java/Perl/Bash
-* DB: Mysql/Sqlite/MSSql
+* DB: DistributedDB/GunDB/Mysql/Sqlite/MSSql
 * DevOps: AliCloud/TencentCloud/AmazonCloud/Linux/Docker/CloudFlare/PubNub/AWSLambda
 * Platforms: Unix/Web/App/IOS/Android/WeChatMiniProgram/ReactNative
 * Transdisciplinarity: Maths/Financial/Physics
 * Quant Trade: SharpPoint/InteractiveBroker/FutuHK/etc
-* Learn&pratise, dynamic planning and problem solving
+* Learn & Practise, Dynamic planning and Problem solving
 
 # Core C.V.
 
