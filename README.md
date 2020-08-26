@@ -8,7 +8,6 @@
 
 * [Private] Quantitative Trading System for Stock/Future/Option - 针对【股票,期货,期权】等资产组合的量化交易系统
 * [Private] Semi-Automated B2C Union Platform - 半自动电商联盟系统
-* uChat.im - an app for business communication - 以商业为主题的即时通讯应用
 * [Private] Investment Fund technical support - 投资基金的技术支持
 <!-- * Some "mini-programs" on WeChat for business - 一些基于微信小程序的商业应用 -->
 <!-- * [Private] PartnerNET Quant Fund - 私人投资基金 -->
