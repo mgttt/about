@@ -8,6 +8,11 @@ personal tech learn/pratise log since 2019
 * Big Data / Database tools
 * Customs Project Tech Support
 * ffic for piping at windows ref https://github.com/psmay/windows-named-pipe-utils/blob/master/createAndReadPipe-main.c
+```
+purpose:
+    piping big data(10m+) between mysql w+ selected db.tbl.fields with speed of 500k-records/s;
+    set nameOfPipe=test && bin/mysql.exe | ffic namepipe.c $nameOfPipe | bin/mysqlimport.exe \\.\pipe\$nameOfPipe
+```
 
 ### 2019-11
 
