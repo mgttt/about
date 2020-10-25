@@ -7,6 +7,7 @@ personal tech learn/pratise log since 2019
 * Quantum Computation
 * Big Data / Database tools
 * Customs Project Tech Support
+* ffic for piping at windows ref https://github.com/psmay/windows-named-pipe-utils/blob/master/createAndReadPipe-main.c
 
 ### 2019-11
 
