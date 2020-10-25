@@ -1,5 +1,13 @@
 personal tech learn/pratise log since 2019
 
+### 2020-11
+
+### 2019-10 ~ 2020-10
+
+* Quantum Computation
+* Big Data / Database tools
+* Customs Project Tech Support
+
 ### 2019-11
 
 * VS Code for ES
